@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Battambang'; /* Name to use in CSS */
+  src: url('../fonts/Battambang/Battambang-Regular.ttf');
+}
+@font-face {
+    font-family: 'Koulen';
+    src: url('../fonts/Koulen/Koulen-Regular.ttf');
+}
+body{
+    font-family: 'battambang' , sans-serif;
+    font-display: auto;
+    color: rgb(28, 141, 207);
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6:hover{
+    font-family: Koulen, sans-serif;
+    color: rgb(28, 141, 207);
+}
+a.nav-link:hover,
+a.nav-link.active:hover{
+    font-family: "Koulen" sans-serif;
+    font-size: 1.5rem;
+    color: rgb(28, 141, 207);
+}
+.card p {
+  flex-grow: 1;   /* ⭐ makes text area expand equally */
+}
+.section ul li{
+    list-style: none;
+    color: rgb(10, 10, 10);
+    text-decoration:dashed;
+}
